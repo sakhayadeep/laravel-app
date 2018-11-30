@@ -9,7 +9,7 @@
     </head>
     <body>
         @include('inc.navbar')
-        
+        <hr>
         <div class="container">
             @yield('content')
         </div>
