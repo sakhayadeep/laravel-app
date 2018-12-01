@@ -7,7 +7,7 @@
     
 
     <div class="">
-        {{$post->body}}
+        {!!$post->body!!}
     </div>
     <hr>
     <small>written on : {{$post->created_at}}</small>
