@@ -6,7 +6,7 @@
     <h1>{{$post->title}}</h1>
     <p> by <b>{{$post->user->name}}</b></p>
     <hr>
-    
+    <img style='width:30%' src='/storage/cover_images/{{$post->cover_image}}'>
 
     <div class="">
         {!!$post->body!!}
