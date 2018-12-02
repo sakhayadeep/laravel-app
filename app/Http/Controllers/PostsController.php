@@ -53,7 +53,7 @@ class PostsController extends Controller
         $post->user_id=auth()->user()->id;
         $post->save();
 
-        return redirect('/posts')->with('success','Post Created');
+        return redirect('/dashboard')->with('success','Post Created');
     }
 
     /**
